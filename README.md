@@ -1,8 +1,8 @@
 # merchant-api
 
 # login Api
-```
-''' body '''
+```sh
+> body
 {
    "userName":"taghassan54",
    "password":"12345678",
@@ -11,8 +11,8 @@
 
 ```
 
-```
-''' response '''
+```sh
+> response 
 
 {
 “id”:10001002,
