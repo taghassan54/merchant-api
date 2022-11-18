@@ -122,3 +122,60 @@ search by name
 }
 
 ```
+# products Api 
+
+```sh
+- ✨ response 
+sort by quantity,
+sort by price,
+```
+
+```sh
+✨ body
+{
+    "categories":[
+        {
+            "id":2809,
+            "name":"category name",
+            "products":[
+                {
+                    "id":2738,
+                    "name":"product Name",
+                    "price":8368,
+                    "quantity":926,
+                     "image":"image path"
+                },
+                {
+                    "id":2738,
+                    "name":"product Name",
+                    "price":8368,
+                    "quantity":926,
+                     "image":"image path"
+                },
+                {
+                    "id":2738,
+                    "name":"product Name",
+                    "price":8368,
+                    "quantity":926,
+                     "image":"image path"
+                },
+                {
+                    "id":2738,
+                    "name":"product Name",
+                    "price":8368,
+                    "quantity":926,
+                     "image":"image path"
+                },
+                {
+                    "id":2738,
+                    "name":"product Name",
+                    "price":8368,
+                    "quantity":926,
+                     "image":"image path"
+                }
+            ]
+        }
+    ]
+}
+
+```
