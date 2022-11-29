@@ -257,4 +257,35 @@ sort by price,
 ]
 ```
 
+# Orders
+
+```sh 
+✨ response 
+
+
+[
+    {
+        "OrderID":"P8QMW6XHBDTS",
+        "CreatedAt":"08/21/2019 12:34",
+        "TimeSlot":"1:00 pm - 2:00pm",
+        "Status":"Delivery",
+        "Subtotal":"6523787",
+        "DeliveryCharges":"7",
+        "Payment Method":"visa",
+        "Total":"6578239",
+        "Products":[
+             {
+                "ProductName":"Name",
+                "Category":"Category",
+                "SubCategory":"Sub - Category",
+                "Quantity":"30",
+                "Price":"4590",
+                "Total":"2343545"
+            }
+        ]
+    }
+]
+
+```
+
 [edit](https://dillinger.io)
