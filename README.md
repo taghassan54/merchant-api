@@ -125,13 +125,14 @@ search by name
 # products Api 
 
 ```sh
-- ✨ response 
+✨ body
 sort by quantity,
 sort by price,
 ```
 
 ```sh
-✨ body
+
+- ✨ response 
 {
     "categories":[
         {
@@ -217,6 +218,43 @@ sort by price,
     }
 ]
 
+```
+
+# Workers
+
+```sh
+✨ body
+{
+"date_from":"10/11/2022",
+"date_to":"10/11/2022"
+}
+```
+
+```sh
+ ✨ response 
+
+[
+    {
+        "Name": "Name",
+        "Sales": "3009",
+        "image": ""
+    },
+        {
+        "Name": "Name",
+        "Sales": "3009",
+        "image": ""
+    },
+        {
+        "Name": "Name",
+        "Sales": "3009",
+        "image": ""
+    },
+        {
+        "Name": "Name",
+        "Sales": "3009",
+        "image": ""
+    }
+]
 ```
 
 [edit](https://dillinger.io)
