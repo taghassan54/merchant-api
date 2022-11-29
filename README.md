@@ -179,4 +179,44 @@ sort by price,
 }
 
 ```
+
+#Transaction
+
+```sh
+- ✨ body
+{
+"date_from":"10/11/2022",
+"date_to":"10/11/2022",
+"cashierId":10001002,
+"productId":329,
+"categoryID":56789,
+}
+```
+
+```sh
+
+[
+    {
+        "Ref No":"4535-dxb",
+        "Username":"tajEldeen Hassan",
+        "TransactionNo":"8864770",
+        "Voucher":"22-148702",
+        "Date":"29/11/2022",
+        "Payment":"cash",
+        "Total":"390.5",
+        "Details":[
+            {
+                "ProductName":"Name",
+                "Category":"Category",
+                "SubCategory":"Sub - Category",
+                "Quantity":"30",
+                "Price":"4590",
+                "Total":"2343545"
+            }
+        ]
+    }
+]
+
+```
+
 [edit](https://dillinger.io)
