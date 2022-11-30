@@ -1,6 +1,6 @@
 # merchant-api
 
-- ['#home screen Api'] - HTML enhanced for web apps!
+- [click on this link](#home-screen-api)
 
 # login Api
 ```sh
