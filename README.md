@@ -232,18 +232,12 @@ sort by price,
 
 ```aidl
  ✨ response 
- 
-  // 200
+
  {
     "status":"success",
     "message":"saved successfully !"
  } 
  
-  // 400
-  {
-    "status":"error",
-    "message":"data error !"
- } 
 ```
 
 # Workers
