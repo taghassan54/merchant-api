@@ -219,6 +219,32 @@ sort by price,
 ]
 
 ```
+# add Worker
+
+```sh
+✨ body
+{
+"name":"tajEldeen Hassan",
+"password":"1234",
+"role":"role"
+}
+```
+
+```aidl
+ ✨ response 
+ 
+ ## 200
+ {
+    "status":"success",
+    "message":"saved successfully !",
+ } 
+ 
+ ## 400
+  {
+    "status":"error",
+    "message":"data error !",
+ } 
+```
 
 # Workers
 
