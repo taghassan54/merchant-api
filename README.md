@@ -10,6 +10,7 @@
 - [Orders Api](#orders)
 - [Select Logos Api](#select-logos)
 - [images upload Api](#images-upload)
+- [remove Logo Api](#remove-logo)
 - [add stock API](#add-stock)
 - [Select Branch Api](#select-branch)
 
@@ -420,6 +421,14 @@ sort by price,
 ✨ body{
   "type":"default_logo",
   "file": file
+}
+
+```
+# images remove
+
+```sh
+✨ body{
+  "imageId": "50227160"
 }
 
 ```
