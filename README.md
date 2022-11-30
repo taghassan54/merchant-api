@@ -8,6 +8,7 @@
 - [Workers Api](#workers)
 - [add Worker Api](#add-worker)
 - [Orders Api](#orders)
+- [Select Logos Api](#select-logos)
 - [images upload Api](#images-upload)
 - [add stock API](#add-stock)
 - [Select Branch Api](#select-branch)
@@ -380,6 +381,34 @@ sort by price,
   { 
    "id":"50227160",
    "name":"السفير ماركت / كلباء - محمود مجدي"
+ }
+ ]
+```
+
+# Select Logos
+
+```sh
+ ✨ response 
+ [
+ { 
+   "id":"50227160",
+   "path":"image path",
+   "type":"default_logo"
+ },
+  { 
+   "id":"50227160",
+   "path":"image path",
+   "type":"main_logo"
+ },
+  { 
+   "id":"50227160",
+   "path":"image path",
+   "type":"footer_logo"
+ },
+  { 
+   "id":"50227160",
+   "path":"image path",
+   "type":"printing_logo"
  }
  ]
 ```
