@@ -8,7 +8,11 @@
 - [Workers Api](#workers)
 - [add Worker Api](#add-worker)
 - [Orders Api](#orders)
-- 
+- [images upload](#images-upload)
+- [add stock](#add-stock)
+
+# important note all data inside this dashboard belongs to current merchant branch or all branches if  that option selected
+
 # login Api
 ```sh
 - ✨ body
@@ -89,6 +93,37 @@
 }
 
 ```
+# Add Stock 
+```sh
+ ✨ body
+{
+  "category":"1234",
+  "productId":"34567",
+  "manufacturingDate":""
+  "expiryDate":"",
+  "batchNo":"32456789",
+  "price":"23456789",
+  "quantity":"234567"
+}
+
+```
+
+```sh
+ ✨ response 
+ 
+ ## 200
+ {
+    "status":"success",
+    "message":"saved successfully !",
+ } 
+ 
+ ## 400
+  {
+    "status":"error",
+    "message":"data error !",
+ } 
+```
+
 
 # Stock Api 
 ```sh
@@ -261,7 +296,8 @@ sort by price,
 ✨ body
 {
 "date_from":"10/11/2022",
-"date_to":"10/11/2022"
+"date_to":"10/11/2022",
+// sorted by sales
 }
 ```
 
@@ -322,5 +358,31 @@ sort by price,
 ]
 
 ```
+
+ # images upload
+```sh
+// type may be = default_logo , main_logo ,footer_logo ,printing_logo
+✨ body{
+  "type":"default_logo",
+  "file": file
+}
+
+```
+
+```sh
+ ✨ response 
+ 
+ ## 200
+ {
+    "status":"success",
+    "message":"saved successfully !",
+ } 
+ 
+ ## 400
+  {
+    "status":"error",
+    "message":"data error !",
+ } 
+ ```
 
 [edit](https://dillinger.io)
