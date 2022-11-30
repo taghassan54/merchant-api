@@ -236,13 +236,13 @@ sort by price,
   // 200
  {
     "status":"success",
-    "message":"saved successfully !",
+    "message":"saved successfully !"
  } 
  
   // 400
   {
     "status":"error",
-    "message":"data error !",
+    "message":"data error !"
  } 
 ```
 
