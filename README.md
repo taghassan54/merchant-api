@@ -424,14 +424,6 @@ sort by price,
 }
 
 ```
-# images remove
-
-```sh
-✨ body{
-  "imageId": "50227160"
-}
-
-```
 
 ```sh
  ✨ response 
@@ -448,5 +440,13 @@ sort by price,
     "message":"data error !",
  } 
  ```
+# images remove
+
+```sh
+✨ body{
+  "imageId": "50227160"
+}
+
+```
 
 [edit](https://dillinger.io)
