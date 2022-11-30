@@ -230,11 +230,19 @@ sort by price,
 }
 ```
 
-```aidl
+```sh
  ✨ response 
+ 
+ ## 200
  {
     "status":"success",
-    "message":"saved successfully !"
+    "message":"saved successfully !",
+ } 
+ 
+ ## 400
+  {
+    "status":"error",
+    "message":"data error !",
  } 
 ```
 
