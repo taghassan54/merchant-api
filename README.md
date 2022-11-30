@@ -1,7 +1,14 @@
 # merchant-api
 
-- [click on this link](#home-screen-api)
-
+- [home screen Api](#home-screen-api)
+- [login Api](#login-api)
+- [Stock Api](#stock-api)
+- [products Api](#products-api)
+- [Transaction Api](#transaction)
+- [Workers Api](#workers)
+- [add Worker Api](#add-worker)
+- [Orders Api](#orders)
+- 
 # login Api
 ```sh
 - ✨ body
