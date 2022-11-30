@@ -12,7 +12,7 @@
 ```
 
 ```sh
-- ✨ response 
+ ✨ response 
 
 {
 “id”:10001002,
@@ -25,7 +25,7 @@
 # home screen Api 
 
 ```sh
-- ✨ body
+ ✨ body
 {
 "date_from":"10/11/2022",
 "date_to":"10/11/2022"
@@ -34,7 +34,7 @@
 ```
 
 ```sh
-- ✨ response 
+ ✨ response 
 {
 "today_income":9500,
 "this_week_income":560049,
@@ -83,7 +83,7 @@
 
 # Stock Api 
 ```sh
-- ✨ body
+ ✨ body
 
 sort by quantity,
 search by name
@@ -91,7 +91,7 @@ search by name
 ```
 
 ```sh
-- ✨ response 
+ ✨ response 
 {
     "stock":[
         {
@@ -184,7 +184,7 @@ sort by price,
 # Transaction
 
 ```sh
-- ✨ body
+ ✨ body
 {
 "date_from":"10/11/2022",
 "date_to":"10/11/2022",
