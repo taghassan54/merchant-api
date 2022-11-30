@@ -8,12 +8,14 @@
 - [Workers Api](#workers)
 - [add Worker Api](#add-worker)
 - [Orders Api](#orders)
-- [images upload](#images-upload)
-- [add stock](#add-stock)
+- [images upload Api](#images-upload)
+- [add stock API](#add-stock)
+- [Select Branch Api](#select-branch)
 
 # important note all data inside this dashboard belongs to current merchant branch or all branches if  that option selected
 
 # login Api
+
 ```sh
 - ✨ body
 {
@@ -35,7 +37,8 @@
 
 
 ```
-# home screen Api 
+
+# home screen Api
 
 ```sh
  ✨ body
@@ -93,7 +96,9 @@
 }
 
 ```
-# Add Stock 
+
+# Add Stock
+
 ```sh
  ✨ body
 {
@@ -124,8 +129,8 @@
  } 
 ```
 
+# Stock Api
 
-# Stock Api 
 ```sh
  ✨ body
 
@@ -166,7 +171,8 @@ search by name
 }
 
 ```
-# products Api 
+
+# products Api
 
 ```sh
 ✨ body
@@ -263,6 +269,7 @@ sort by price,
 ]
 
 ```
+
 # add Worker
 
 ```sh
@@ -359,7 +366,24 @@ sort by price,
 
 ```
 
- # images upload
+# Select Branch
+
+```sh
+ ✨ response 
+ [
+ { 
+   "id":"50227160",
+   "name":"السفير ماركت / كلباء - محمود مجدي"
+ },
+  { 
+   "id":"50227160",
+   "name":"السفير ماركت / كلباء - محمود مجدي"
+ }
+ ]
+```
+
+# images upload
+
 ```sh
 // type may be = default_logo , main_logo ,footer_logo ,printing_logo
 ✨ body{
