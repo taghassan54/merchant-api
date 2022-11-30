@@ -1,5 +1,7 @@
 # merchant-api
 
+- ['#home screen Api'] - HTML enhanced for web apps!
+
 # login Api
 ```sh
 - ✨ body
