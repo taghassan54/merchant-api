@@ -8,6 +8,7 @@
 - [Transaction Api](#transaction)
 - [Workers Api](#workers)
 - [add Worker Api](#add-worker)
+- [Update Worker](#update-worker)
 - [Orders Api](#orders)
 - [Select Logos Api](#select-logos)
 - [images upload Api](#images-upload)
@@ -248,6 +249,7 @@ sort by price,
     "image":file
 }
 ```
+
 ```sh
  ✨ response 
  
@@ -263,7 +265,6 @@ sort by price,
     "message":"data error !",
  } 
  ```
-
 
 # Transaction
 
@@ -309,6 +310,34 @@ sort by price,
 ```sh
 ✨ body
 {
+"name":"tajEldeen Hassan",
+"password":"1234",
+"role":"role"
+}
+```
+
+```sh
+ ✨ response 
+ 
+ ## 200
+ {
+    "status":"success",
+    "message":"saved successfully !",
+ } 
+ 
+ ## 400
+  {
+    "status":"error",
+    "message":"data error !",
+ } 
+```
+
+# Update Worker
+
+```sh
+✨ body
+{
+"id":10001002,
 "name":"tajEldeen Hassan",
 "password":"1234",
 "role":"role"
@@ -470,6 +499,7 @@ sort by price,
     "message":"data error !",
  } 
  ```
+
 # images remove
 
 ```sh
