@@ -4,6 +4,7 @@
 - [login Api](#login-api)
 - [Stock Api](#stock-api)
 - [products Api](#products-api)
+- [update products Api](#update-product-api)
 - [Transaction Api](#transaction)
 - [Workers Api](#workers)
 - [add Worker Api](#add-worker)
@@ -234,6 +235,35 @@ sort by price,
 }
 
 ```
+
+# Update Product Api
+
+```sh
+✨ body
+{
+    "ProductName":"Product Name",
+    "Price":"37689",
+    "Quantity":"325",
+    "Active":true,
+    "image":file
+}
+```
+```sh
+ ✨ response 
+ 
+ ## 200
+ {
+    "status":"success",
+    "message":"saved successfully !",
+ } 
+ 
+ ## 400
+  {
+    "status":"error",
+    "message":"data error !",
+ } 
+ ```
+
 
 # Transaction
 
